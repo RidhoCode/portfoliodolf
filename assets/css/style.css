@@ -639,6 +639,7 @@ row-gap: 1rem;
 
 .services__modal-service{
     display: flex;
+    margin-top: var(--mb-0-5);
 }
 .services__modal-title{
     font-size: var(--h3-font-size);
@@ -789,7 +790,42 @@ row-gap: 1rem;
 .contact__container{
     row-gap: 3rem;
 }
-.contacy__information{
+.contact__information{
     display: flex;
-    margin-bottom: mb;
+    margin-bottom: var(--mb-2);
+    /* margin-top: var(--mb-0-25); */
+}
+.contact__icon{
+    font-size: 2rem;
+    color: var(--first-color);
+    margin-right: var(--mb-0-75);
+    margin-top: var(--mb-0-5);
+}
+.contact__title{
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+}
+.contact__subtitle{
+    font-size: var(--small-font-size);
+    color: var(--text-color-light);
+    margin-top: var(--mb-0-25);
+}
+.contact__content{
+    background-color: var(--input-color);
+    border-radius: .5rem;
+    padding: .75rem 1rem .25rem;
+}
+.contact__label{
+    font-size: var(--smaller-font-size);
+    color: var(--title-color);
+}
+.contact__input{
+    width: 100%;
+    background-color: var(--input-color);
+    color: var(--text-color);
+    font-family:var(--body-color) ;
+    font-size: var(--normal-font-size);
+    border: none;
+    outline: none;
+    padding: .25rem .5rem .5rem 0;
 }
