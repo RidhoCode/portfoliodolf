@@ -1165,7 +1165,34 @@ color: #fff;
     padding: 6rem 0 2rem 2.5rem;
     }
     .services__modal-content{
+        width: 450px;
+        margin-left: 3rem;
     }
+    .portfolio__img{
+        width: 320px;
+        
+    }
+    .portfolio__content{
+    align-items: center;
+    }
+    
+    .project{
+        text-align: initial;
+    }
+    .project__bg{
+        background: none;
+    }
+    .project__container{
+        background-color: var(--first-color-second);
+        border-radius: 1rem;
+        padding: 3rem 2.5rem 0;
+        grid-template-columns: 1fr max-content;
+        column-gap: 3rem;
+    }
+    .project__data{
+        padding-top: .8rem;
+    }
+    
     
 
 }
