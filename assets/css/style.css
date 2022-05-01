@@ -498,7 +498,7 @@ background-color              : var(--first-color-alt);
     background-color: var(--first-color);
     
 }
-.skills__html{
+/* .skills__html{
     width: 90%;
 }
 .skills__css{
@@ -533,7 +533,7 @@ background-color              : var(--first-color-alt);
     width: 80%;
 }.skills__videography{
     width: 30%;
-}
+} */
 .skills__close .skills__list{
     height: 0;
     overflow: hidden;
