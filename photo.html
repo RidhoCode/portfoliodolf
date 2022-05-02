@@ -4,10 +4,7 @@
     <meta charset    = "UTF-8">
     <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
     <meta name       = "viewport" content        = "width=device-width, initial-scale=1.0">
-    
-   <!-- unicons -->
-    <!-- <link rel = "stylesheet" href = "https://css.gg/css"> -->
-    
+
     <link rel = "stylesheet" href = "https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     
     <title>Photography</title>
@@ -16,18 +13,77 @@
     <link rel = "stylesheet" href = "./assets/css/style.css">
 </head>
 <body>
-    <section class="services section" id="services">
+    <header class = "header" id = "header">
+        <nav    class = "nav container">
+        <a      href  = "#" class   = "nav__logo">Dolf</a>
+            
+            <div class = "nav__menu" id = "nav-menu">
+            <ul  class = "nav__list grid">
+                
+                    <li class = "nav__item">
+                    <a  href  = "index.html" class = "nav__link active-link">
+                    <i  class = "uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+                    
+                    <li class = "nav__item">
+                    <a  href  = "#about" class = "nav__link">
+                    <i  class = "uil uil-user nav__icon"></i> About
+                        </a>
+                    </li>
+                    
+                    <li class = "nav__item">
+                    <a  href  = "#skills" class = "nav__link">
+                    <i  class = "uil uil-file-alt nav__icon"></i> Skills
+                        </a>
+                    </li>
+                    
+                    <li class = "nav__item">
+                    <a  href  = "#services" class = "nav__link">
+                    <i  class = "uil uil-briefcase nav__icon"></i> Services
+                        </a>
+                    </li>
+                    
+                    <!-- <li class = "nav__item">
+                    <a  href  = "#portfolio" class = "nav__link">
+                    <i  class = "uil uil-scenery nav__icon"></i> Portfolio
+                        </a>
+                    </li> -->
+                    
+                    <li class = "nav__item">
+                    <a  href  = "./index.html/#contact" class = "nav__link">
+                    <i  class = "uil uil-message nav__icon"></i></i> Contact
+                        </a>
+                    </li>
+                    
+                </ul>
+                <i class = "uil uil-times nav__close" id = "nav-close"></i>
+            </div>
+            <div class = "nav__btns">
+                <!-- Theme Change button -->
+                
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                
+                
+            <div class = "nav__toggle" id = "nav-toggle">
+            <i   class = "uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+        </header>
+        
+    <section class="photography section" id="photography">
         <h2 class="section__title">Photography</h2>
         <span class="section__subtitle">What i offers</span>
         
-        <div class="services__container container grid">
+        <div class="photography__container container grid">
             <!-- sevices 1-->
-            <div class="services__content">
-                <div>
-                <i class="uil uil-web-grid services__icon"></i>
-                <h3 class="services__title">Client 1</h3>
-            </div>
-                    <<a href="client1" class="button button--flex button--small button--link"> 
+            <div class="photography__content">
+                    <div>
+                    <i class="uil uil-web-grid photography__icon"></i>
+                    <h3 class="photography__title">Client 1</h3>
+                </div>
+                    <a href="client1" class="button button--flex button--small button--link"> 
                         View More
                          <i class="uil uil-arrow-right button__icon"></i></a>
                     
@@ -35,37 +91,30 @@
              </div>
              
                <!-- sevices 2-->
-            <div class="services__content">
+               <div class="photography__content">
                 <div>
-                    <i class="uil uil-arrow services__icon"></i>
-                <h3 class="services__title">Front End <br> Developer</h3>
+                <i class="uil uil-web-grid photography__icon"></i>
+                <h3 class="photography__title">Client 1</h3>
             </div>
-                    <span class="button button--flex button--small button--link services__button">
-                        View More 
-                        <i class="uil uil-arrow-right button__icon"></i>
-                        
-                    </span>
+                    <a href="client1" class="button button--flex button--small button--link"> 
+                        View More
+                         <i class="uil uil-arrow-right button__icon"></i></a>
                     
-                  
+                   
              </div>
                <!-- sevices 3-->
-               <div class="services__content">
+               <div class="photography__content">
                 <div>
-                    <i class="uil uil-camera services__icon"></i>
-                <h3 class="services__title">Photography</h3>
+                <i class="uil uil-web-grid photography__icon"></i>
+                <h3 class="photography__title">Client 1</h3>
             </div>
-                    <!-- <span class="button button--flex button--small button--link services__button">
-                        <a href="about"></a>
-                        View More 
-                        <i class="uil uil-arrow-right button__icon"></i>
-                        
-                    </span> -->
-                    <a href="photo.html" class="button button--flex button--small button--link"> 
-                       View More
-                        <i class="uil uil-arrow-right button__icon"></i></a>
+            <a href="photo.html" class="button button--flex button--small button--link"> 
+                View More
+                 <i class="uil uil-arrow-right button__icon"></i></a>
                     
-                
+                   
              </div>
+       
             
         </div>
 </section>
